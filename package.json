@@ -1,0 +1,30 @@
+{
+  "name": "git-contributions",
+  "version": "1.0.0",
+  "description": "获取github的contributions",
+  "main": "index.js",
+  "bin": {
+    "gitshell": "./index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huarxia/git-contributions.git"
+  },
+  "keywords": [
+    "github",
+    "contributions"
+  ],
+  "author": "huarxia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huarxia/git-contributions/issues"
+  },
+  "homepage": "https://github.com/huarxia/git-contributions#readme",
+  "devDependencies": {
+    "chalk": "^2.1.0",
+    "request": "^2.81.0"
+  }
+}
